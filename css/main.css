@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    height: 60px;
+    padding: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 10px -3px rgba(0,0,0,0.75);
+}
+.header .text h3 {
+    padding-top: 9px;
+    color: #000;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header .page ul {
+    list-style: none;
+    text-align: right;
+    padding-top: 9px;
+    word-spacing: 20px;
+}
+.header .page ul li {
+    display: inline;
+    padding-top: 9px;
+    font-size: 0.9rem;
+    letter-spacing: 4px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.header .page ul li a {
+    display: inline;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.header .page ul li a:hover {
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Hero */
+.hero {
+    height: 92vh;
+    background-image: url('../img/hamburger.jpg');
+    opacity: 1;
+}
+.hero .text h2 {
+    padding-top: 84vh;
+    color: #57585c;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    word-spacing: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* About */
+.about {
+    padding: 80px;
+    border-bottom: 1px solid #eeeeee;
+}
+.about img {
+    padding-left: 30px;
+    height: 41.25rem;
+}
+.about .text {
+    padding-top: 30px;
+    padding-right: 95px;
+}
+.about .text h2 {
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 550;
+    color: #000;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display', serif;
+}
+.about .text h4 {
+    padding: 20px;
+    border-top: 2px solid #57585c;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9rem;
+    color: #000;
+    font-weight: 500;
+}
+.about .text .pramery {
+    padding-bottom: 35px;
+    text-align: left;
+    word-spacing: 4px;
+    width: 550px;
+    color: #000;
+    font-weight: 600;
+    border-bottom: 1px solid #57585ccb;
+}
+.about .text .pramery span {
+    padding: 0px 5px 0px 5px;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+}
+.about .text .second {
+    padding-top: 15px;
+    text-align: left;
+    word-spacing: 5px;
+    width: 550px;
+    color: #75758a;
+    font-weight: 600;
+}
+
+/* Menu */
+.menu {
+    padding: 80px;
+    border-bottom: 1px solid #eeeeee;
+}
+.menu img {
+    width: 550px;
+    height: 41.25rem;
+}
+.menu .text {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+.menu .text h2 {
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 550;
+    color: #000;
+    letter-spacing: 5px;
+    border-bottom: 2px solid #57585c;
+    font-family: 'Playfair Display', serif;
+}
+.menu .text .txt {
+    padding-top: 30px;
+}
+.menu .text .txt h3 {
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.menu .text .txt p {
+    color: #75758a;
+}
+
+/* Contact */
+.contact {
+    padding: 80px;
+}
+.contact .text {
+    padding: 0 80px 0 50px;
+}
+.contact .text h2 {
+    padding-bottom: 40px;
+    text-align: left;
+    font-size: 1.9rem;
+    font-weight: 550;
+    color: #000;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display', serif;
+}
+.contact .text p {
+    padding-bottom: 10px;
+    font-size: 1.03rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact .text h4 {
+    padding: 0 0 10px 0;
+    color: #607d8b;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.contact .text form {
+    display: block;
+}
+.contact .text form input {
+    display: block;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #eeeeee;
+    width: 1150px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0 10px 0;
+}
+.contact .text form button {
+    background-color: #f1f1f1;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.3s;
+}
+.contact .text form button:hover {
+    color: rgba(0, 0, 0, 0.671);
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #f1f1f1;
+}
+footer .text {
+    padding: 30px;
+}
+footer .text h4 {
+    text-align: center;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+footer .text h4 span {
+    cursor: pointer;
+    text-decoration: underline;
+}
